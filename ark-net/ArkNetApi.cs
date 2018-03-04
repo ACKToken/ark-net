@@ -15,36 +15,12 @@ namespace ArkNet
     {
         private List<Tuple<string, int>> _peerSeedListMainNet = 
             new List<Tuple<string, int>> {
-            Tuple.Create("5.39.9.240", 4001),
-            Tuple.Create("5.39.9.241", 4001),
-            Tuple.Create("5.39.9.242", 4001),
-            Tuple.Create("5.39.9.243", 4001),
-            Tuple.Create("5.39.9.244", 4001),
-            Tuple.Create("5.39.9.250", 4001),
-            Tuple.Create("5.39.9.251", 4001),
-            Tuple.Create("5.39.9.252", 4001),
-            Tuple.Create("5.39.9.253", 4001),
-            Tuple.Create("5.39.9.254", 4001),
-            Tuple.Create("5.39.9.255", 4001)
+            Tuple.Create("199.247.16.210", 4001)
             };
 
         private List<Tuple<string, int>> _peerSeedListDevNet =
             new List<Tuple<string, int>> {
-            Tuple.Create("167.114.43.48", 4002),
-            Tuple.Create("167.114.29.49", 4002),
-            Tuple.Create("167.114.43.43", 4002),
-            Tuple.Create("167.114.29.54", 4002),
-            Tuple.Create("167.114.29.45", 4002),
-            Tuple.Create("167.114.29.40", 4002),
-            Tuple.Create("167.114.29.56", 4002),
-            Tuple.Create("167.114.43.35", 4002),
-            Tuple.Create("167.114.29.51", 4002),
-            Tuple.Create("167.114.29.59", 4002),
-            Tuple.Create("167.114.43.42", 4002),
-            Tuple.Create("167.114.29.34", 4002),
-            Tuple.Create("167.114.29.62", 4002),
-            Tuple.Create("167.114.43.49", 4002),
-            Tuple.Create("167.114.29.44", 4002)
+            Tuple.Create("199.247.16.210", 4002)
             };
 
         private static readonly Lazy<ArkNetApi> _lazy =
